@@ -95,8 +95,8 @@ main.title('DataFlair School Management System')
 main.geometry('1000x600')
 main.resizable(0, 0)
 # Creating the background and foreground color variables
-lf_bg = 'MediumSpringGreen' # bg color for the left_frame
-cf_bg = 'PaleGreen' # bg color for the center_frame
+lf_bg = '#D3D3D3' # bg color for the left_frame (Light Gray)
+cf_bg = '#A9A9A9' # bg color for the center_frame (Dark Gray)
 # Creating the StringVar or IntVar variables
 name_strvar = StringVar()
 email_strvar = StringVar()
@@ -104,7 +104,7 @@ contact_strvar = StringVar()
 gender_strvar = StringVar()
 stream_strvar = StringVar()
 # Placing the components in the main window
-Label(main, text="SCHOOL MANAGEMENT SYSTEM", font=headlabelfont, bg='SpringGreen').pack(side=TOP, fill=X)
+Label(main, text="SCHOOL MANAGEMENT SYSTEM", font=headlabelfont, bg='#D3D3D3').pack(side=TOP, fill=X)
 left_frame = Frame(main, bg=lf_bg)
 left_frame.place(x=0, y=30, relheight=1, relwidth=0.2)
 center_frame = Frame(main, bg=cf_bg)
